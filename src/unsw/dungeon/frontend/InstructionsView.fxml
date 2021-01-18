@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="718.0" fitWidth="663.0" layoutX="-28.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../images/bulkhead-wallsx3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="33.0" layoutX="27.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/human_new.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="backButton" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleBack" text="Back">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font></Button>
+      <Label layoutX="238.0" layoutY="31.0" text="How To Play" textFill="WHITE" underline="true">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="131.0" prefHeight="19.0" prefWidth="391.0" text="ARROW KEYS: Move the player up, down, left and right." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="155.0" prefHeight="48.0" prefWidth="507.0" text="W, A, S, D KEYS: Swing the sword up, left, down and right respectively. One hit kills an enemy instantly." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="187.0" prefHeight="61.0" prefWidth="494.0" text="Teleport through portals. Each portal has a matching portal." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="622.0" prefHeight="79.0" prefWidth="313.0" text="If you make a mistake, press the restart button. HAVE FUN AND GOOD LUCK!" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="61.0" fitWidth="116.0" layoutX="463.0" layoutY="628.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/yesgood.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="511.0" prefHeight="61.0" prefWidth="499.0" text="P KEY: Put your collected pet into a basket. You can only put them in during the day as the baskets will be locked at night." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="81.0" prefHeight="41.0" prefWidth="519.0" text="Collect items and complete goals. Enemies will chase you around the dungeon. *very cool name* has a day and night mode. Be careful, enemies move faster at night!" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="31.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/greatsword_1_new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="30.0" layoutY="519.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/snek.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="33.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/gold_pile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="29.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/pressure_plate.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="29.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/boulder.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="567.0" prefHeight="61.0" prefWidth="515.0" text="Complete goals by collecting treasure, killing enemies, triggering switches, saving pets and reaching exits! Complex goals can be made up of several goals, so pay attention to the goal on the screen." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="347.0" prefHeight="123.0" prefWidth="507.0" text="Collect and use keys on their corresponding doors. Once a key matches the door, it is used and taken from the inventory and the door stays open. Picking up another key from the dungeon will replace the key in your inventory if you have one, with the previously collected key reappearing in its original place on the dungeon floor. During the day, the matching keys/doors will be colour coded. At night, colour codes cannot be seen." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="463.0" prefHeight="61.0" prefWidth="518.0" text="Collect pets by coming in contact with them. They will follow you around and kill enemies instantly if they come in contact." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="225.0" prefHeight="61.0" prefWidth="521.0" text="Push boulders by moving your character against the boulder. Switches can be triggered and untriggered by pushing a boulder onto them." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="32.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/full_basket.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="32.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/key.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="32.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/closed_door.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="69.0" layoutY="284.0" prefHeight="61.0" prefWidth="507.0" text="Pick up invincibility potions. This will immediately activate your player's invincibility power. Player is invincible for 10 moves, and enemies will die when coming in contact with you. Because of this, enemies will run away from you." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="30.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/brilliant_blue_new.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="28.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/portal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="32.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/open_door.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="32.0" layoutY="643.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/exit.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="27.0" layoutX="30.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/human_invincible.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,751 @@
+{
+  "width": 12,
+  "height": 11,
+  "entities": [
+    {
+      "x": 1,
+      "y": 5,
+      "type": "player"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "type": "sword"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "type": "invincibility"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "type": "enemy"
+    },    
+    {
+      "x": 11,
+      "y": 5,
+      "type": "exit"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "type": "wall"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "type": "wall"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "type": "wall"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "type": "wall"
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "type": "portal",
+      "id": 0
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "type": "portal",
+      "id": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "type": "portal",
+      "id": 1
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "type": "portal",
+      "id": 1
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "type": "portal",
+      "id": 2
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "type": "portal",
+      "id": 2
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "type": "portal",
+      "id": 3
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "type": "portal",
+      "id": 3
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "type": "portal",
+      "id": 4
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "type": "portal",
+      "id": 4
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "type": "portal",
+      "id": 5
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "type": "portal",
+      "id": 5
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "type": "portal",
+      "id": 6
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "type": "portal",
+      "id": 6
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "type": "portal",
+      "id": 7
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "type": "portal",
+      "id": 7
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "type": "portal",
+      "id": 8
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "type": "portal",
+      "id": 8
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "type": "portal",
+      "id": 9
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "type": "portal",
+      "id": 9
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "type": "portal",
+      "id": 10
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "type": "portal",
+      "id": 10
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "type": "portal",
+      "id": 11
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "type": "portal",
+      "id": 11
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "type": "portal",
+      "id": 12
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "type": "portal",
+      "id": 12
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "type": "portal",
+      "id": 13
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "type": "portal",
+      "id": 13
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "type": "portal",
+      "id": 14
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "type": "portal",
+      "id": 14
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "type": "portal",
+      "id": 15
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "type": "portal",
+      "id": 15
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "type": "portal",
+      "id": 16
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "type": "portal",
+      "id": 16
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "type": "portal",
+      "id": 17
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "type": "portal",
+      "id": 17
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "type": "portal",
+      "id": 18
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "type": "portal",
+      "id": 18
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "type": "portal",
+      "id": 19
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "type": "portal",
+      "id": 19
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "type": "portal",
+      "id": 20
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "type": "portal",
+      "id": 20
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "type": "portal",
+      "id": 21
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "type": "portal",
+      "id": 21
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "type": "portal",
+      "id": 22
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "type": "portal",
+      "id": 22
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "type": "portal",
+      "id": 23
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "type": "portal",
+      "id": 23
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "type": "portal",
+      "id": 24
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "portal",
+      "id": 24
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "type": "portal",
+      "id": 25
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "type": "portal",
+      "id": 25
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "type": "portal",
+      "id": 26
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "type": "portal",
+      "id": 26
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "type": "portal",
+      "id": 27
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "type": "portal",
+      "id": 27
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "type": "portal",
+      "id": 28
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "type": "portal",
+      "id": 28
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "type": "portal",
+      "id": 29
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type": "portal",
+      "id": 29
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "type": "portal",
+      "id": 30
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "type": "portal",
+      "id": 30
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "type": "portal",
+      "id": 31
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "type": "portal",
+      "id": 31
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "type": "portal",
+      "id": 32
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "type": "portal",
+      "id": 32
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "type": "portal",
+      "id": 33
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "type": "portal",
+      "id": 33
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "type": "portal",
+      "id": 34
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "type": "portal",
+      "id": 34
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "type": "portal",
+      "id": 35
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "type": "portal",
+      "id": 35
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "type": "portal",
+      "id": 36
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "type": "portal",
+      "id": 36
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "type": "portal",
+      "id": 37
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "type": "portal",
+      "id": 37
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "type": "portal",
+      "id": 38
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "type": "portal",
+      "id": 38
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "type": "portal",
+      "id": 39
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "type": "portal",
+      "id": 39
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "type": "portal",
+      "id": 40
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "type": "portal",
+      "id": 40
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "type": "portal",
+      "id": 41
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "type": "portal",
+      "id": 41
+    }
+  ],
+  "goal-condition": {
+    "goal": "AND",
+    "subgoals": [
+      {
+        "goal": "exit"
+      },
+      {
+        "goal": "enemies"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+\*-*-*-*-*-*-*-*-*- TESTS -*-*-*-*-*-*-*-*-*/
+
+PlayerTest.java:
+	- test that item can be added to inventory
+	- test that item can be retrieved from inventory
+	- test that item can be removed from inventory
+	
+PlayerMovementTest.java:
+	- test that player can move up, down, left, right
+	- test that player cannot move through wall
+	- test that player cannot move beyond dungeons scope
+
+BoulderTset.java:
+	- test that player can move boulder up, down, left and right
+	- test that boulders are blocked by other boulders, preventing movement
+	- test that boulders are blocked by walls, preventing movement
+	- test that boulders are blocked by enemies, preventing movement
+	- test that boulders are blocked by locked doors, preventing movement
+	- test that boulders aren't blocked by entities that are not solid
+	
+InvincibilityPotionTest.java:
+	- test that player can pick up one invincibility potion
+	- test that if player tries to pick up a potion while being invincibile, they can't
+	- test that player is invincible for 10 moves and effect wears off at 11th move 
+	- test that when effect wears off, enemy can kill player again
+
+SwordTest.java:
+	- test that player can pick up sword
+	- test that player cannot pick up a sword if they have one in their inventory
+	- test that enemy dies when it is hit by a sword one block away
+	- test that if sword doesn't kill an enemy, it's hits doesn't decrease
+	- test that if sword kills enemy, it's hits decreases
+	- test that sword disappears from inventory when it reaches 5 hits
+
+WallTest.java: 
+	- test that wall is solid
+	
+SwitchTest.java:
+	- test that switches are triggered when a boulder is pushed on top of it
+	- test that switches are untriggered when a boulder is pushed off of it
+
+EnemyTest.java:
+	- test enemy movement (towards and away player)
+	- test player death upon collision with enemy
+	- test that enemy is blocked by walls, boulders and locked doors
+	- test that enemy can move through doors
+
+PortalTest.java:
+	- test that player, boulder, enemy can go through portals
+	- test that player, boulder, enemy are not teleported if there is an entity (e.g. boulder)
+	  blocking it on the other side
+	  
+DoorAndKeyTest.java: 
+	- test that player cannot move through locked door
+	- test player can pickup a key and it is added to inventory
+	- test player can pickup another key, but old key in their inventory gets returned back to original dungeon position
+	- test that player can successfully unlock door with matching key
+
+TreasureTest.java:
+	- test that player can pick up treasure and it is accumulated in inventory
+	- test that once treasure is picked up, it disappears from dungeon floor
+
+GoalEnemyTest.java:
+	- test that enemies are added to enemy goal
+	- test that when player kills an enemy, goal is updated
+	- test that goal is completed when all enemies are killed in a dungeon
+
+GoalSwitchTest.java:
+	- test that switches are added to switch goal
+	- test that when a switch is triggered, it is added to goal (goal updates)
+	- test that when a switch is untriggered, it is taken away from the goal (goal updates)
+	- test that goal is reached when all switches in dungeon are triggered on
+	
+GoalTreasureTest.java:
+	- test that treasure is added to treasure goal
+	- test that goal is reached when all treasure in dungeon is collected
+
+GoalExitTest.java:
+	- test that exit goals are complete if the player goes onto the exit
+	
+GoalComplexTest.java:
+	- test that OR goals are satisfied when a sub goal is completed
+	- test that AND goals are not satisfied when not all sub goals are completed
+
+GoalComplexTestAnd.java:
+	- test that goal is incomplete when subgoals aren't complete
+	- test that goal is incomplete when one subgoal isn't complete and one is
+	- test that goal is complete when all subgoals are complete
+	- test that complex goal can have complex subgoals
+	- test lots of combinations of possible AND goals (including goals which have OR subgoals)s
+	
+GoalComplexTestOr.java:
+	- test that goal is incomplete when subgoals aren't complete
+	- test that goal is complete when at least one subgoal is complete
+	- test that complex goal can have complex subgoals
+	- tests lots of combinations of possible OR goals (including goals which have AND subgoals)
+	
